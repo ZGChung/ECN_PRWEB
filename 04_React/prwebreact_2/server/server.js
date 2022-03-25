@@ -234,6 +234,6 @@ app.post("/returnBook", function(req, res) {
 });
 
 app.listen(8000, () => {
-  console.log('Server started!')
+  console.log('Server started! Listening on port 8000.')
 });
 
