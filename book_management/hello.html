@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng-eng">
+    <head>
+        <title>Hello World Title</title>
+        <meta charset="UTF-8"/>
+        <link href="css/myCSSFile.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="js/text.js">
+        </script>
+    </head>
+    <body>
+        <p class="error"><span onmouseover="writeText();">This is a test sentence.</span></p>
+        <p><a href="table.html">Go to the Table Page</a></p>
+
+        <h1>This is a form</h1>
+        <form action="test.php" method="POST">
+            <p>Give your login<br/>
+                <input type="text" name="myLogin" value="" placeholder="your name please"/>
+            </p>
+            <p>Give your password<br/>
+                <input type="password" name="myPassword" value="" placeholder="your password"/>
+            </p>
+            <p>Select your specialty<br/>
+                <select name="mySpecialty">
+                    <option value="-1" selected="selected">-</option>
+                    <option value="1">INFO</option>
+                    <option value="2">Réalité Virtuelle</option>
+                </select>
+            </p>
+            <p>Select your status<br/>
+                <input type="radio" name="myStatus" value="1"/>Teacher<br/>
+                <input type="radio" name="myStatus" value="2"/>Student
+            </p>
+            <p>
+                <input type="checkbox" name="myChoice" value="1"/> Check the button
+            </p>
+            <p>
+                <button>Valid form</button>
+            </p>
+        </form>
+        
+    </body>
+</html>
+

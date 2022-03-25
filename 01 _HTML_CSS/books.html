@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        <title>List Books Page</title>
+        <meta charset="UTF-8"/> 
+        <link href="css/main.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+		<h1>List of books</h1>
+		<table class="list">
+			<tr>
+				<th style="width:50px">book #</th>
+				<th>Title</th>
+				<th>Authors</th>
+				<th style="width:100px"></th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Les Passagers du Vent, Volume 1</td>
+				<td>Enki Bilal</td>
+				<td  class="centered">
+					<form action="editBook" method="POST">
+						<button class="icon" name="edit"><img src="img/edit.png" alt="edit" class="icon" /></button>
+						<button class="icon" name="delete"><img src="img/delete.png" alt="delete" class="icon" /></button>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>La Foire aux immortels</td>
+				<td>François Bourgeon</td>
+				<td  class="centered">
+					<form action="editBook" method="POST">
+						<button class="icon" name="edit"><img src="img/edit.png" alt="edit" class="icon" /></button>
+						<button class="icon" name="delete"><img src="img/delete.png" alt="delete" class="icon" /></button>
+					</form>
+				</td>
+			</tr>
+			<tr id="addNew">
+				<td colspan="3"></td>
+				<td  class="centered"><button><img src="img/plus.png" alt="add" class="icon" /></button></td>
+			</tr>
+		</table>
+    </body>
+</html>
+
